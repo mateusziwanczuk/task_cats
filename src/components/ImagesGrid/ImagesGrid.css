@@ -1,0 +1,49 @@
+.container {
+    width: 60%; 
+    margin: 50px auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form input {
+    margin-left: 10px;
+    text-align: center;
+    width: 30px;
+}
+
+.enabledClicks {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.enabledClicks select{
+    margin-left: 10px;
+}
+
+.error {
+    color: red;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cats {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 150px);
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.counter {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.counter button {
+    margin-left: 10px;
+}
